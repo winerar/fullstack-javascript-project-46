@@ -8,8 +8,3 @@ program
   .option('-f, --format <type>', 'output format');
 
 program.parse();
-
-
-const options = program.opts();
-if (options.help) console.log(options);
-console.log(options.description);
